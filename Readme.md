@@ -25,3 +25,6 @@ Looking at the files corresponding to kp = 30, and ki = 50, we see that the sett
 ### 3. Remarks
 For relatively similar values for kp and ki, unexpected peaks in error occurred towards the end of the simulation. Adding the “NearZero” function from the library to check the division by zero, didn’t help either. However this error was negligible for other values of kp and ki. The results submitted in the assignment were calculated at these values. The probable cause of the error is the integration method. More detailed research is needed to find the actual reason.
 
+
+#### Error response graph
+<img src="https://github.com/Kashugoyal/kuka_manipulation/blob/master/Part%20E/kp5_ki150.gif?raw=true">
